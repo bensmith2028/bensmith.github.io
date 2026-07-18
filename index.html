@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin Smith — Mechanical Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">Benjamin Smith</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-photo-wrap">
+        <!-- Replace hero-photo.jpg with your actual photo filename -->
+        <img src="hero-photo.jpg" alt="Benjamin Smith" class="hero-photo" id="hero-photo" />
+      </div>
+      <div class="hero-text">
+        <h1>Benjamin Smith</h1>
+        <p class="hero-tagline">Mechanical Engineering Student · Northwestern University</p>
+        <p class="hero-sub">Building things that move, connect, and solve real problems.</p>
+        <div class="hero-links">
+          <a href="resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">Resume</a>
+          <a href="https://linkedin.com/in/" class="btn btn-outline" target="_blank" rel="noopener" id="linkedin-link">LinkedIn</a>
+          <a href="https://github.com/" class="btn btn-outline" target="_blank" rel="noopener" id="github-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">
+        I'm a mechanical engineering student at Northwestern University with hands-on experience in
+        vehicle dynamics, structural analysis, and product development. I enjoy working at the intersection
+        of engineering and real-world impact — whether that's building a formula-style race car, supporting
+        civil infrastructure projects, or designing assistive technology for people who need it most.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-index="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Northwestern FSAE</h3>
+              <span class="timeline-date">2023 – Present</span>
+            </div>
+            <p class="timeline-role">Formula SAE Team Member · Northwestern University</p>
+            <p class="timeline-desc">
+              Designed, manufactured, and iterated on components for a formula-style race car competing
+              in the SAE collegiate series. Contributed across suspension, drivetrain, and chassis
+              systems. Gained extensive hands-on experience with machining, CAD, and vehicle dynamics
+              testing.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Century Engineering</h3>
+              <span class="timeline-date">Summer 2024</span>
+            </div>
+            <p class="timeline-role">Engineering Intern · Civil Engineering</p>
+            <p class="timeline-desc">
+              Supported structural and civil engineering projects at a professional firm. Assisted with
+              site inspections, drafting, and technical documentation for infrastructure and building
+              projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>TEGO Plug</h3>
+              <span class="timeline-date">2024 – Present</span>
+            </div>
+            <p class="timeline-role">Co-Founder / Engineer · Northwestern Student Startup</p>
+            <p class="timeline-desc">
+              Co-founded a student-led startup developing a hardware product. Took ownership of the
+              mechanical design and prototyping process, working iteratively from concept through
+              physical prototype.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-index="3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Assistive Communication Device</h3>
+              <span class="timeline-date">2024</span>
+            </div>
+            <p class="timeline-role">Design Engineer · Class Group Project</p>
+            <p class="timeline-desc">
+              Collaborated on an interdisciplinary team to design and build a custom communication
+              device for a non-verbal child. Focused on human-centered design principles — working
+              directly with the child and their family to understand needs and iterate on solutions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT CARDS -->
+  <section id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <div class="cards-grid">
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder">FSAE</div>
+          </div>
+          <div class="card-body">
+            <h3>Northwestern FSAE</h3>
+            <p>Formula-style race car design and competition. Suspension, chassis, and drivetrain work across multiple competition seasons.</p>
+            <span class="tag">Vehicle Dynamics</span>
+            <span class="tag">CAD</span>
+            <span class="tag">Manufacturing</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder">TEGO</div>
+          </div>
+          <div class="card-body">
+            <h3>TEGO Plug</h3>
+            <p>Hardware startup founded at Northwestern. Led mechanical design and rapid prototyping from concept to working prototype.</p>
+            <span class="tag">Startup</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">Product Design</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder">AAC</div>
+          </div>
+          <div class="card-body">
+            <h3>Assistive Communication Device</h3>
+            <p>Human-centered design project creating a custom communication tool for a non-verbal child. Iterative design with direct user feedback.</p>
+            <span class="tag">Human-Centered Design</span>
+            <span class="tag">Assistive Tech</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder">CEI</div>
+          </div>
+          <div class="card-body">
+            <h3>Century Engineering</h3>
+            <p>Civil and structural engineering internship. Site work, technical documentation, and exposure to large-scale infrastructure projects.</p>
+            <span class="tag">Civil Engineering</span>
+            <span class="tag">Structural Analysis</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <p>Benjamin Smith &mdash; Mechanical Engineering, Northwestern University</p>
+      <div class="footer-links">
+        <a href="mailto:bensmith152006@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener" id="footer-linkedin">LinkedIn</a>
+        <a href="https://github.com/" target="_blank" rel="noopener" id="footer-github">GitHub</a>
+        <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
